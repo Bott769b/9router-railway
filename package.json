@@ -1,0 +1,12 @@
+{
+  "name": "9router-on-railway",
+  "version": "1.0.0",
+  "description": "Running 9Router on Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "9router"
+  },
+  "dependencies": {
+    "9router": "latest"
+  }
+}
