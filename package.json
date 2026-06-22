@@ -4,8 +4,8 @@
   "description": "Running 9Router on Railway",
   "main": "index.js",
   "scripts": {
-    "start": "9router"
-  },
+  "start": "9router || tail -f /dev/null"
+},
   "dependencies": {
     "9router": "latest"
   }
