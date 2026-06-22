@@ -2,11 +2,11 @@
   "name": "9router-on-railway",
   "version": "1.0.0",
   "description": "Running 9Router on Railway",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-  "start": "9router || tail -f /dev/null"
-},
+    "start": "node server.js"
+  },
   "dependencies": {
     "9router": "latest"
   }
-}
+}railway ssh --project=8008043f-4dd9-435f-ae81-9aa5f06cb7b1 --environment=0f8d1e02-7936-4f2a-bfd5-b1c6a68960b8 --service=72ae9d31-d686-4ab6-a9f1-4f36bd232c80
