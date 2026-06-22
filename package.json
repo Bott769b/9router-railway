@@ -7,6 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "9router": "latest"
+    "9router": "latest",
+    "http-proxy": "^1.18.1"
   }
 }
